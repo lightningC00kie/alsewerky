@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+p {
+    line-height: 1.6;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#nav ul li {
+    padding: 2em;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#nav ul li:hover {
+    font-size: 1.3em;
+    /* border-bottom: 1px solid black; */
+}
+
+.top_content {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* width: 100%; */
+}
+
+.outer_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outer_content h2 {
+    margin-bottom: 3rem;
+    margin-left: 1em;
+}
+
+.card_content {
+    padding: 4em;
+    background-color: #3E3E3E;
+    color: #DBDBDB;
+}
+
+.left_intro_card {
+    /* background-color: blue; */
+    margin-right: 6em;
+    /* height: 100%; */
+    /* height: auto; */
+}
+
+.right_intro_card {
+    /* background-color: blue; */
+    margin-left: 6em;
+}
+
+.resume {
+    margin-left: 3em;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding: 1em 2em;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #3E3E3E;
+    color: #3E3E3E;
+}
+
+.resume:hover {
+    background-color: #3E3E3E;
+    color: #DBDBDB;
+    transition: color 200ms ease-in;
+    transition: background-color 200ms ease-in;
+}
