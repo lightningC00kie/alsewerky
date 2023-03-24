@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#nav").removeClass("toggleNav");
+    $(".hamburger_container").click(function(){
+        $("#nav").toggleClass("toggleNav");
+        $(".hamburger").toggleClass(".hamburger_color");
+        $(".hamburger::before").toggleClass(".hamburger_color");
+        $(".hamburger::after").toggleClass(".hamburger_color");
+        console.log("clicked");
+    });
+}); 
